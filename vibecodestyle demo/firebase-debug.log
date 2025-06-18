@@ -1,0 +1,50 @@
+[debug] [2025-06-18T21:59:02.752Z] ----------------------------------------------------------------------
+[debug] [2025-06-18T21:59:02.754Z] Command:       /home/millz/.nvm/versions/node/v22.15.0/bin/node /home/millz/.npm-global/bin/firebase init
+[debug] [2025-06-18T21:59:02.754Z] CLI Version:   14.7.0
+[debug] [2025-06-18T21:59:02.754Z] Platform:      linux
+[debug] [2025-06-18T21:59:02.754Z] Node Version:  v22.15.0
+[debug] [2025-06-18T21:59:02.754Z] Time:          Wed Jun 18 2025 17:59:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-06-18T21:59:02.755Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-18T21:59:02.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-18T21:59:02.761Z] > authorizing via signed-in user (phillips.paul.email@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/Users/millz/Desktop/vibecodestyle demo
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-18T21:59:13.775Z] Checked if tokens are valid: true, expires at: 1750287212004
+[debug] [2025-06-18T21:59:13.775Z] Checked if tokens are valid: true, expires at: 1750287212004
+[debug] [2025-06-18T21:59:13.776Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-06-18T21:59:14.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-06-18T21:59:14.119Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project vib3code-style-demo (vib3code-style-demo) 
+[info] 
+=== Hosting Setup
+[debug] [2025-06-18T21:59:17.652Z] Checked if tokens are valid: true, expires at: 1750287212004
+[debug] [2025-06-18T21:59:17.652Z] Checked if tokens are valid: true, expires at: 1750287212004
+[debug] [2025-06-18T21:59:17.652Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vib3code-style-demo [none]
+[debug] [2025-06-18T21:59:17.903Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vib3code-style-demo 200
+[debug] [2025-06-18T21:59:17.904Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vib3code-style-demo {"projectId":"vib3code-style-demo","projectNumber":"474519604856","displayName":"vib3code-style-demo","name":"projects/vib3code-style-demo","resources":{"hostingSite":"vib3code-style-demo"},"state":"ACTIVE","etag":"1_fb9d816f-0e04-4e3a-ac83-2eaf06c2cb2b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
